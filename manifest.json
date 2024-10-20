@@ -1,0 +1,14 @@
+{
+  "name": "ESP32 Firmware",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "firmware.bin",  // URL to your compiled firmware
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
